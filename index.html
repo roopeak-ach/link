@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kaji Links</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bahiana&display=swap" rel="stylesheet">
+
+<style>
+/* Body & background */
+body {
+    background: url('asligaya.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    padding-top: 40px;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* Overlay hitam supaya tulisan kelihatan */
+body::before {
+    content: "";
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.623);
+    z-index: -1;
+}
+
+/* Foto profil */
+img {
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    margin-bottom:15px;
+}
+
+/* ROOPEAK */
+h2 {
+    font-family:'Bahiana', cursive;
+    color: rgb(253, 215, 0);
+    font-size: 50px;
+    margin: 0 0 20px 0; /* jarak bawah ke tombol */
+}
+
+/* Tombol dasar */
+.link {
+    display:block;
+    color:white;
+    padding:15px;
+    margin:10px auto;
+    width:230px;
+    text-decoration:none;
+    border-radius:10px;
+    font-size:18px;
+    transition:0.2s;
+}
+
+/* Warna per tombol */
+.saweria { background:#272727; }
+.tiktok { background:#081bbd; }
+.instagram { background:#8914d6; }
+.youtube { background:#b60211; }
+
+/* Hover per tombol */
+.saweria:hover { background:#f5dd02; transform: scale(1.05); }
+.tiktok:hover { background:#00a2ff; transform: scale(1.05); }
+.instagram:hover { background:#df3dff; transform: scale(1.05); }
+.youtube:hover { background:#ff2b2b; transform: scale(1.05); }
+
+
+.separator {
+    width: 28%;
+    height: 2px;
+    background: white;
+    margin: 20px auto;
+    border-radius: 1px;
+}
+
+.link {
+    display:block;
+    color:white;
+    padding:15px;
+    margin:10px auto;
+    width:230px;
+    text-decoration:none;
+    border-radius:10px;
+    font-size:40px;
+    font-family: 'Bahiana', cursive; /* <--- ini font baru */
+    transition:0.2s;
+}
+</style>
+</head>
+
+
+<body>
+
+<img src="new marsup.jpg">
+
+<h2>ROOPEAK</h2>
+
+<div class="separator"></div>
+
+<a class="link saweria" href="https://saweria.co/roopeak">Saweria</a>
+
+<div class="separator"></div>
+
+<a class="link tiktok" href="https://www.tiktok.com/@roopeak.ach?is_from_webapp=1&sender_device=pc">TikTok</a>
+<a class="link instagram" href="https://www.instagram.com/roopeak.ach?igsh=MTV1cmc5ZDk4NWJxOQ==">Instagram</a>
+<a class="link youtube" href="https://www.youtube.com/@Roopeak.1">YouTube</a>
+
+
+</body>
+</html>
